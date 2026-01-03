@@ -180,6 +180,7 @@ Feel free to open issues, suggest features, or submit pull requests.
 
 Run the app:
 python tui_chatbot.py
+python3 tui_chatbot.py
 
 this project code is openrouter api based if anyone want to add openapi then modify the code 
 ⭐ Full minimal OpenAI version
@@ -204,4 +205,4 @@ def ask_ai_sync(messages, model: str):
 
 
 
-python3 tui_chatbot.py
+
