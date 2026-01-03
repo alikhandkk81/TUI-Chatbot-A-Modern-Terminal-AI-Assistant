@@ -3,8 +3,8 @@
 A fast, elegant, and developer‑friendly terminal-based AI chat client built with Python, Textual, Rich, and OpenRouter.
 Designed for power users who prefer the keyboard, love clean UI, and want AI directly inside their terminal.
 
-![Screenshot](img1.png)
-![Screenshot](img2.png)
+![Screenshot](img1.svg)
+![Screenshot](img2.svg)
 
 This project demonstrates:
 
