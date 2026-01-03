@@ -6,11 +6,11 @@ Designed for power users who prefer the keyboard, love clean UI, and want AI dir
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="img1.svg" alt="TUI Chatbot Screenshot 1" width="85%">
+  <img src="1.svg" alt="TUI Chatbot Screenshot 1" width="85%">
 </p>
 
 <p align="center">
-  <img src="img2.svg" alt="TUI Chatbot Screenshot 2" width="85%">
+  <img src="2.svg" alt="TUI Chatbot Screenshot 2" width="85%">
 </p>
 
 
