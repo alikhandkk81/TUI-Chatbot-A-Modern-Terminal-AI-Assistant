@@ -178,7 +178,6 @@ Feel free to open issues, suggest features, or submit pull requests.
 
 🏁 Usage
 
-Run the app:
 python tui_chatbot.py
 python3 tui_chatbot.py
 
