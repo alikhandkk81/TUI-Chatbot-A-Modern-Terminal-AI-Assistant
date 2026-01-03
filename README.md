@@ -180,4 +180,28 @@ Feel free to open issues, suggest features, or submit pull requests.
 
 Run the app:
 python tui_chatbot.py
+
+this project code is openrouter api based if anyone want to add openapi then modify the code 
+⭐ Full minimal OpenAI version
+def ask_ai_sync(messages, model: str):
+    OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+    if not OPENAI_API_KEY:
+        raise RuntimeError("OPENAI_API_KEY is not set.")
+
+    headers = {
+        "Authorization": f"Bearer {OPENAI_API_KEY}",
+        "Content-Type": "application/json",
+    }
+
+    data = {
+        "model": model,
+        "messages": messages,
+    }
+
+    response = requests.post("https://api.openai.com/v1/chat/completions", json=data, headers=headers)
+    response.raise_for_status()
+    return response.json()["choices"][0]["message"]["content"]
+
+
+
 python3 tui_chatbot.py
